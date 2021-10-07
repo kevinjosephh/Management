@@ -1,6 +1,0 @@
-.env
-Procfile
-runtime.txt
-.venv/
-__pycache__/
-staticfiles/
