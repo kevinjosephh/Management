@@ -27,7 +27,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','https://product-sys.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','product-sys.herokuapp.com']
 
 
 # Application definition
@@ -39,9 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'accounts.apps.AccountsConfig',
-
     'django_filters',
 ]
 
