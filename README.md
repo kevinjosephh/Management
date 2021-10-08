@@ -38,15 +38,25 @@ python3 -m venv .venv
 source .venv\bin\activate
 
 ```
+--> Install the requirements :
+```bash
 > pip install requirements.txt
+
+
+```
 
 ### Executing program
 * For Windows
+```bash
 > python manage.py runserver
 
+```
+
 * For Linux/Mac
+```bash
 > python3 manage.py runserver
 
+```
 
 ## Authors
 
