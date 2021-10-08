@@ -3,14 +3,25 @@
 
 LIVE URL :https://product-sys.herokuapp.com
 ## Description
-It a simple web application written in vanilla javascript which works as skicky notes.
-You can take short quick notes anytime and discard it eventually.
+It is a product management web application.where staff member can update or keep track of all orders and user can check-in on products that were ordered by them 
 
 ## Getting Started
 
 ### Dependencies
 
-The Vanilla JavaScript project has zero dependencies.
+All the required dependencies are mention in requirements.txt file
+
+### Installing
+
+> pip install requirements.txt
+
+### Executing program
+* For Windows
+> python manage.py runserver
+
+* For Linux/Mac
+> python3 manage.py runserver
+
 
 ## Authors
 
